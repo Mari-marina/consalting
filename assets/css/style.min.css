@@ -1332,3 +1332,7 @@ button {
       height: 260px;
     }
   }
+  .footer__tel_bottom, .footer__text_adress {
+    color: #22356f;
+    text-decoration: none;
+  }
