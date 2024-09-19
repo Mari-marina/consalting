@@ -482,7 +482,7 @@ object-fit: cover; }
   text-decoration: none; }
 
 .footer__tel {
-  color: rgba(34, 53, 111, 0.5); }
+  color: rgb(242 237 250 / 86%); }
 
 .footer__mail {
   color: #3774f7; }
@@ -922,13 +922,14 @@ margin-bottom: 50px;}
     @media all and (max-width: 600px)  {
       .header__logo {
         font-size: 28px; }
+        
     }
 
   .header__subtitle--center {
     display: none; }
   .header__burger {
     display: block;
-    width: 50px;
+    width: 32px;
     z-index: 99; }
   .header__nav {
     padding-top: 150px;
@@ -974,9 +975,7 @@ margin-bottom: 50px;}
       .header__link {
         font-size: 20px; } }
 
-@media all and (max-width: 376px) {
-  .main__wrapper {
-    margin-top: 210px; } }
+
 
 .header__text,
 .description__text,
@@ -989,7 +988,8 @@ margin-bottom: 50px;}
   justify-content: space-between; }
 
 .description__wrapper {
-  max-width: 1080px; }
+  max-width: 1080px;
+  margin: 0 20px 20px 0; }
 
 .description__image {
   max-width: 600px;
@@ -1016,6 +1016,9 @@ margin-bottom: 50px;}
       font-size: 26px;
       line-height: 28px;
       padding-top: 60px;
+      }
+      .main {
+        padding-bottom: 30px;
       }
   }
 
@@ -1192,7 +1195,8 @@ margin-bottom: 50px;}
     padding-left: 14px;
     padding-right: 14px;
     padding-bottom: 20px;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: flex-start; }
   .footer__img {
     width: 100%;
     max-width: 100%; }
@@ -1243,7 +1247,7 @@ margin-bottom: 50px;}
 
 @media all and (max-width: 600px)  {
   .text {
-   font-size: 18px;
+   font-size: 16px;
    line-height: 22px;
   }
 }
@@ -1251,6 +1255,7 @@ margin-bottom: 50px;}
 .description__container {
   max-width: 1600px;
   display: flex;
+  /* align-items: center; */
   margin: 0 auto;
 }
 
@@ -1295,4 +1300,35 @@ button {
   .container {
     padding: 0 30px;
   }
+  .header {
+    height: 64px;
+  }
+  .header__burger {
+    top: 14px;
+  }
+  .footer__bottom {
+    padding: 14px;
+  }
 }
+
+.text {
+  font-weight: 300;
+}
+
+@media all and (max-width: 600px) {
+  .main__wrapper {
+    margin-top: 80px; } 
+    .description__title {
+      padding-top: 50px;
+      margin-bottom: 30px;
+    }
+    .help__text {
+      padding-top: 130px;
+    }
+    .help__block--pink, .help__block--green, .help__block--lightBlue, .help__block--Blue {
+      min-width: 240px;
+    }
+    .help__block {
+      height: 260px;
+    }
+  }
