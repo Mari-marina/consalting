@@ -979,7 +979,7 @@ margin-bottom: 50px;}
 .description {
   background-color: #62d0df;
   display: flex;
-  justify-content: space-between; }
+  justify-content: center; }
 
 .description__wrapper {
   max-width: 1080px;
