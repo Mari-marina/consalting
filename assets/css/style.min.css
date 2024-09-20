@@ -1315,6 +1315,10 @@ button {
   font-weight: 300;
 }
 
+.help__word {
+  font-weight: 500;
+}
+
 @media all and (max-width: 600px) {
   .main__wrapper {
     margin-top: 80px; } 
@@ -1324,12 +1328,16 @@ button {
     }
     .help__text {
       padding-top: 130px;
+      
     }
     .help__block--pink, .help__block--green, .help__block--lightBlue, .help__block--Blue {
       min-width: 240px;
     }
     .help__block {
       height: 260px;
+    }
+    .container {
+      padding: 0 18px;
     }
   }
   .footer__tel_bottom, .footer__text_adress {
